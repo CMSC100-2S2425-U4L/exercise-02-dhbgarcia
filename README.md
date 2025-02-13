@@ -29,7 +29,3 @@
 - Understood the importance of proper documentation in repositories.
 - Improved skills in version control and project organization.
 
----
-
-## Repository Information
-**Repository:** Use the repository provided by GitHub Classroom.

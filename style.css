@@ -206,12 +206,12 @@ section{
     font-family: 'Times New Roman', Times, serif;
 }
 
-.services {
+.skills {
     background: var(--second-bg-color);
 }
 
 .main-text {
-    text-align: center;
+    text-align: justify;
 }
 
 .main-text p{
@@ -221,10 +221,18 @@ section{
 }
 
 .main-text h2{
-    font-size: 100px;
+    font-size: 90px;
     line-height: 1;
+    text-align: center;
 }
 
+.project-text h2{
+    font-size: 90px;
+    line-height: 1;
+    font-family: 'Press Start 2P', serif;
+    display: flex;
+    text-align: center;
+}
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -240,12 +248,41 @@ section{
     transition: all .45s ease;
 }
 
-.s-icons i{
-    font-size: 32px;
-    margin-bottom: 20px;
+.service-icon {
+    width: 50px;   /* Adjust the size as needed */
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #64c2ed;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+    flex-basis: 250px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    background-color: #dcc57a;
+    color: #FFFFFF;
+    animation: bounce 1s;
 }
 
 .box h3{
+    text-align: center;
+    margin-top: 15px;
     font-size: 24px;
     font-weight: 600;
     color: var(--text-color);
@@ -253,6 +290,7 @@ section{
 }
 
 .box p{
+    text-align: justify;
     color: var(--second-color);
     font-size: 1 rem;
     line-height: 1.8;
@@ -390,8 +428,8 @@ section{
 
 .list li a{
     display: block;
-    color: var(--second-color);
-    font-size: 14px;
+    color: var(--main-color);
+    font-size: 16px;
     transition: all .45s ease;
 }
 
@@ -405,7 +443,6 @@ section{
     width: 60px;
     color: var(--text-color);
     font-size: 22px;
-    display: inline-block;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
@@ -442,7 +479,7 @@ section{
     display: inline-block;
     font-size: 16px;
     background: var(--main-color);
-    color: var(--text-color);
+    color: black;
     width: 160px;   
     transition: all .45s ease;
 }

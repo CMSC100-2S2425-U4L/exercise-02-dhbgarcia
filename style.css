@@ -47,6 +47,7 @@ header{
     width: 5rem;
     height: 5rem;
     display: flex;
+    margin-right: 30px;
 }
 
 span{
@@ -55,6 +56,9 @@ span{
 
 .navlist{
     display: flex;
+    border-radius: 50px;
+    padding: 10px 20px;
+    backdrop-filter: blur(80px);
 }
 
 .navlist a{

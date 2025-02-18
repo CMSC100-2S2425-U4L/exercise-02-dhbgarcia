@@ -3,7 +3,7 @@
 **Degree Program:** BS Computer Science  
 
 ## Live Website
-[View My GitHub Page]
+(https://cmsc100-2s2425-u4l.github.io/exercise-02-dhbgarcia/)
 
 ---
 
